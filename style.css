@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(110, 219, 219);
+	color: white;
+}
+
+h1 {
+	width: fit-content;
+	background-color: rgb(106, 90, 205);
+	border-radius: 0.5rem;
+	font-weight: bold;
+	font-family: "VT323", monospace;
+	text-shadow: 4px 3px 0 rgb(40, 133, 133), 7px 3.5px 0 #0a0e27;
+}
+
+.gif {
+	padding: 0.75rem;
+	box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+	background-color: white;
+}
+
+#formDiv {
+	background-color: rgb(205, 226, 248);
+	border-radius: 0.5rem;
+	color: #3c3c3c;
+}
