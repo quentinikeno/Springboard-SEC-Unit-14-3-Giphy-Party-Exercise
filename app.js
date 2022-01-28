@@ -7,7 +7,7 @@ async function getGif(q) {
 	try {
 		const api_key = "MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym";
 		const params = { api_key, q };
-		const res = await axios.get("http://api.giphy.com/v1/gifs/search", {
+		const res = await axios.get("https://api.giphy.com/v1/gifs/search", {
 			params,
 		});
 		const randIndex = Math.floor(Math.random() * res.data.data.length);
